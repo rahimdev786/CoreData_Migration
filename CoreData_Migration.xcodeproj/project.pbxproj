@@ -14,6 +14,7 @@
 		EFAF88D12815B7D800F2BB8F /* CoreData_Migration.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EFAF88CF2815B7D800F2BB8F /* CoreData_Migration.xcdatamodeld */; };
 		EFAF88D32815B7DB00F2BB8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFAF88D22815B7DB00F2BB8F /* Assets.xcassets */; };
 		EFAF88D62815B7DB00F2BB8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFAF88D42815B7DB00F2BB8F /* LaunchScreen.storyboard */; };
+		EFAF88DE2815B98100F2BB8F /* CoreData Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAF88DD2815B98100F2BB8F /* CoreData Stack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		EFAF88D22815B7DB00F2BB8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFAF88D52815B7DB00F2BB8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EFAF88D72815B7DB00F2BB8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFAF88DD2815B98100F2BB8F /* CoreData Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CoreData Stack.swift"; sourceTree = "<group>"; };
+		EFAF88DF2815D91D00F2BB8F /* CoreData_Migration v2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "CoreData_Migration v2.xcdatamodel"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,7 @@
 			children = (
 				EFAF88C62815B7D800F2BB8F /* AppDelegate.swift */,
 				EFAF88C82815B7D800F2BB8F /* SceneDelegate.swift */,
+				EFAF88DD2815B98100F2BB8F /* CoreData Stack.swift */,
 				EFAF88CA2815B7D800F2BB8F /* ViewController.swift */,
 				EFAF88CC2815B7D800F2BB8F /* Main.storyboard */,
 				EFAF88D22815B7DB00F2BB8F /* Assets.xcassets */,
@@ -141,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFAF88DE2815B98100F2BB8F /* CoreData Stack.swift in Sources */,
 				EFAF88CB2815B7D800F2BB8F /* ViewController.swift in Sources */,
 				EFAF88C72815B7D800F2BB8F /* AppDelegate.swift in Sources */,
 				EFAF88C92815B7D800F2BB8F /* SceneDelegate.swift in Sources */,
@@ -365,9 +370,10 @@
 		EFAF88CF2815B7D800F2BB8F /* CoreData_Migration.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				EFAF88DF2815D91D00F2BB8F /* CoreData_Migration v2.xcdatamodel */,
 				EFAF88D02815B7D800F2BB8F /* CoreData_Migration.xcdatamodel */,
 			);
-			currentVersion = EFAF88D02815B7D800F2BB8F /* CoreData_Migration.xcdatamodel */;
+			currentVersion = EFAF88DF2815D91D00F2BB8F /* CoreData_Migration v2.xcdatamodel */;
 			path = CoreData_Migration.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
